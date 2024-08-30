@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://www.w3.org/ns/credentials/undefined-terms/v2"
+  ],
+  "type": [
+    "VerifiedEmailAddressCredential",
+    "VerifiableCredential"
+  ],
+  "issuer": "did:web:wesbiggs.github.io:did-web-vc-demo",
+  "credentialSchema": {
+    "type": "JsonSchema",
+    "id": "https://wesbiggs.github.io/did-web-vc-demo/verified-email-address.json"
+  },
+  "credentialSubject": {
+    "id": "did:key:z6MkqiErfb3trrdbuaMsPFz1WLq2Dk8411Q9ghb31feiu7CG",
+    "emailAddress": "joe.bloggs@example.com",
+    "lastVerified": "2024-02-12T03:08:00Z"
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-08-30T20:44:46Z",
+    "verificationMethod": "did:web:wesbiggs.github.io:did-web-vc-demo#z6MkqiErfb3trrdbuaMsPFz1WLq2Dk8411Q9ghb31feiu7CG",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5roNTq9T2WAqF9RhzSSebVm1Ui6JdMkgsqnWcWUiUvs9rst8QkGq8NGJQJU7Q7KXkkhnHW9fas6L3pp1UWikccxc"
+  }
+}

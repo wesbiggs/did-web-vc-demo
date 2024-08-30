@@ -1,0 +1,15 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:wesbiggs.github.io:did-web-vc-demo",
+  "assertionMethod": [
+    {
+      "@context": "https://w3id.org/security/multikey/v1",
+      "id": "did:web:wesbiggs.github.io:did-web-vc-demo#z6MkqiErfb3trrdbuaMsPFz1WLq2Dk8411Q9ghb31feiu7CG",
+      "type": "Multikey",
+      "controller": "did:web:wesbiggs.github.io:did-web-vc-demo",
+      "publicKeyMultibase": "z6MkqiErfb3trrdbuaMsPFz1WLq2Dk8411Q9ghb31feiu7CG"
+    }
+  ]
+}
