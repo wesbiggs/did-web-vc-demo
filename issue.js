@@ -8,8 +8,6 @@ import jsonld from "jsonld";
 import dataIntegrityContext from "@digitalbazaar/data-integrity-context";
 import * as credentialsContext from "@digitalbazaar/credentials-context";
 
-//const nodeDocumentLoader = jsonld.documentLoaders.node();
-
 const controller =  "did:web:wesbiggs.github.io:did-web-vc-demo";
 
 // Output from init-key.js
