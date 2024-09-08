@@ -7,6 +7,7 @@ This repo provides a simple JavaScript example that sets up a did:web DID via Gi
 - `init-key.js` creates an ed25519 key pair and DID document
 - `issue.js` issues a Verifiable Credential using a key generated from the previous step
 - `verify.js` verifies the Verifiable Credential against the DID document found online using a did:web URI
+- `verify-mock.js` verifies the Verifiable Credential against the local DID document
 
 ## Artifacts
 
