@@ -6,7 +6,7 @@ import { CachedResolver } from "@digitalbazaar/did-io";
 import * as didWeb from "@digitalbazaar/did-method-web";
 
 // The credential we're verifying
-import emailCredential from "./docs/email.json" assert { type: "json" };
+import emailCredential from "./docs/email.json" with { type: "json" };
 
 const suite = new DataIntegrityProof({ cryptosuite });
 
